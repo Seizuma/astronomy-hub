@@ -1,0 +1,29 @@
+@media (max-width: 1024px) {
+    .featured-posts .container {
+        justify-content: space-around;
+    }
+
+    .post {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .featured-posts .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post {
+        flex-basis: 90%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}

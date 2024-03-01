@@ -1,0 +1,51 @@
+/* Styles spécifiques aux posts dans posts.css */
+
+/* Styles pour les posts à la une et les détails des posts */
+.post,
+.post-detail {
+    background: #16163a;
+    padding: 20px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.post img,
+.post-detail img {
+    max-width: 100%;
+    max-height: 400px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.post-detail {
+    margin-top: 20px;
+}
+
+.post-detail h2,
+.post h4 {
+    font-family: 'Georgia', serif;
+    color: #eaeaea;
+    margin-bottom: 20px;
+}
+
+.post p,
+.post-detail p {
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.post a,
+.post-detail a {
+    color: #4e9af1;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.post a:hover,
+.post-detail a:hover {
+    text-decoration: underline;
+}
